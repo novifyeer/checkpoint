@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<OutputType>Library</OutputType>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+
+		<PackageId>Checkpoint</PackageId>
+		<Description>Checkpoint provides the ability to rollback data during testing and development to maintain data integrity.</Description>
+		<PackageTags>integration tests; database tests; tests tools</PackageTags>
+		<Version>1.0.0</Version>
+
+		<Authors>novifyeer</Authors>
+
+		<RepositoryUrl>https://github.com/novifyeer/checkpoint</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../../LICENSE" Pack="true" Visible="false" PackagePath=""/>
+		<None Include="../../README.md" Pack="true" Visible="false" PackagePath=""/>
+	</ItemGroup>
+
+</Project>
